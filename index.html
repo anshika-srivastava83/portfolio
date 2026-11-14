@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Anshika</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="hero">
+  <button class="panel left" data-track="extra">
+    <h2>Extracurricular</h2>
+    <p>Mehfil, E-cell, hackathons, internships and the designs I made for Mehfil.</p>
+  </button>
+  <button class="panel right" data-track="tech">
+    <h2>Tech</h2>
+    <p>Projects, skills, certificates and profiles.</p>
+  </button>
+  <img id="me" src="images/me-center.png" alt="3D illustration of Anshika">
+  <svg id="ph" viewBox="0 0 340 420" hidden aria-hidden="true">
+    <rect x="0" y="262" width="340" height="300" rx="110" fill="#A9D3F5"/>
+    <circle cx="170" cy="130" r="108" fill="#B9DCF8"/>
+    <circle cx="128" cy="128" r="17" fill="#fff"/><circle cx="212" cy="128" r="17" fill="#fff"/>
+    <circle class="pu" cx="128" cy="128" r="8" fill="#24301f"/><circle class="pu" cx="212" cy="128" r="8" fill="#24301f"/>
+  </svg>
+</header>
+
+<main id="sheet">
+  <nav class="tabs" id="tabs">
+    <button data-track="extra">Extracurricular</button>
+    <button data-track="tech">Tech</button>
+  </nav>
+  <div id="rail"></div>
+  <div id="details"></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
